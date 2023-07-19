@@ -63,8 +63,9 @@ body {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      gap: 20px;
+      gap: 50px;
       padding: 5px 150px;
+      background-image: url(../images/Group\ 14.png);
 }
 
 .bannar-title {}
@@ -109,8 +110,119 @@ body {
 .bannar-title button {
       color: #FFF;
       font-family: Work Sans;
-      font-size: 10px;
+      font-size: 20px;
       font-weight: 600;
       text-transform: uppercase;
       margin-left: 8px;
+
 }
+
+.sign {
+      padding: 20px;
+      border-radius: 48px;
+      background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.go {
+      border-radius: 48px;
+      background: #4EC5F7;
+      padding: 20px;
+      /* margin-right: 10px; */
+}
+
+.bannar-img img {
+      width: 500px;
+      height: 500px;
+}
+
+/* online games section */
+.games-img-container {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 20px;
+      padding: 5px 240px;
+
+
+}
+
+.games-img-container img {
+      width: 300px;
+      height: 400px;
+      border-radius: 16px;
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+}
+
+section {
+      padding: 10px 150px;
+}
+
+section h3 {
+      color: #0B0223;
+      text-align: center;
+      font-family: Work Sans;
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 0px;
+
+}
+
+section p {
+      color: #534C64;
+      text-align: center;
+      font-family: Work Sans;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 30px;
+
+}
+
+section span {
+      background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: Work Sans;
+      font-size: 30px;
+      font-weight: 700;
+}
+
+/* play container */
+.play-container {
+      display: flex;
+      gap: 20px;
+}
+
+.play-title {}
+
+.play-title span {
+      text-align: right;
+      font-family: Work Sans;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 60px;
+      background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+}
+
+.play-title h3 {
+      color: #0B0223;
+      font-family: Work Sans;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 60px;
+}
+
+.play-title p{
+      color: #534C64;
+      text-align: right;
+      font-family: Work Sans;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 30px;
+}
+
