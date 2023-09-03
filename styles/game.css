@@ -228,9 +228,11 @@ section h3 {
 /* play container */
 .play-container {
       display: flex;
-      gap: 20px;
+      justify-content: center;
+      gap: 100px;
       margin-top: 20px;
-      align-items: center;
+      /* align-items: center; */
+      margin-bottom: 60px;
 
 }
 .play-container img{
@@ -242,7 +244,17 @@ section h3 {
       height: 170px;
 }
 .play-title{
-      width: 100%;
+      /* width: 100%; */
+      /* border: 1px solid red; */
+      width : 50%;
+      text-align: center;
+      
+}
+.picture{
+      width : 50%;
+      padding-right: 100px;
+
+      
 }
 
 .play-title span {
